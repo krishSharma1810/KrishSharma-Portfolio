@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- font awesome links -->
+    <script
+      src="https://kit.fontawesome.com/181426d246.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- base font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font family for skills heading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font family for name -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font for project heading... -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="script.js" defer></script>
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="sticky">
+      <ul>
+        <li><a href="#block-1" class="list-items">Overview</a></li>
+        <li><a href="#block-4" class="list-items">Projects</a></li>
+        <li><a href="#block-3" class="list-items">Skills</a></li>
+        <li><a href="#block-2" class="list-items">Education</a></li>
+        <li>
+          <a
+            href="./Krish Sharma resume.pdf"
+            class="list-items Download"
+            download="Krish-Sharma_Resume"
+            >Download CV</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <section class="overview-block" id="block-1">
+      <div class="overview-content-block">
+        <div class="overview-written">
+          <h1>
+            Hey I'm<br />
+            <span>Krish sharma</span>
+          </h1>
+          <p>
+            Recent computer science student with progressive writing codes and
+            designing solutions. Adapt in identifying solving complex computer
+            system software issues.
+          </p>
+        </div>
+        <div class="contect-me-block">
+          <div class="contact-detail-block">
+            <i
+              class="fa-brands fa-github contact-me-icon fa-2x"
+              onclick="OpenGit()"
+            ></i>
+          </div>
+          <div class="contact-detail-block">
+            <i
+              class="fa-brands fa-linkedin-in contact-me-icon fa-2x"
+              onclick="OpenLinkedIn()"
+            ></i>
+          </div>
+          <i class="fa-solid fa-at contact-me-icon fa-2x"></i>
+          <i class="fa-solid fa-phone contact-me-icon fa-2x"
+            ><a href="tel:9893951810"></a
+          ></i>
+        </div>
+      </div>
+      <div class="overview-img-block">
+        <img class="overview-img" src="./overview-img.png" />
+      </div>
+    </section>
+
+    <section id="block-4">
+      <h1 class="project-heading">My Projects</h1>
+
+      <div class="cards-block">
+        <div class="card">
+          <div class="card-img">
+            <img
+              src="./Project-img/Project-onmi.png"
+              alt="omnifood project image"
+            />
+          </div>
+          <div class="card-content">
+            <h6>Omnifood</h6>
+            <p class="Hide-text">
+              In this project I learned about crafting websites that adjust to
+              any screen (responsive design) using HTML , CSS and JavaScript.
+              Build a static website and gain hands-on experience with core web
+              development skills.
+            </p>
+            <button>View Project</button>
+            <div class="card-line"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img
+              src="./Project-img/project-fintech.png"
+              alt="omnifood project image"
+            />
+          </div>
+          <div class="card-content">
+            <h6>Financee</h6>
+            <p class="Hide-text">
+              Developed a responsive website for a fintech company using HTML,
+              CSS, and JavaScript.Focused on clean and modern design principles
+              using CSS to ensure a seamless user experience across different
+              devices.
+            </p>
+            <button>View Project</button>
+            <div class="card-line"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img
+              src="./Project-img/project-player.png"
+              alt="omnifood project image"
+            />
+          </div>
+          <div class="card-content">
+            <h6>Music Player</h6>
+            <p class="Hide-text">
+              Built a functional music player using HTML, CSS, and JavaScript.
+              Implemented play/pause controls and a progress bar for song
+              position tracking.You can listen to your favourite songs after
+              adding into it.
+            </p>
+            <button>View Project</button>
+            <div class="card-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="block-3">
+      <h1 class="skills-Heading">What i Know(Skills)</h1>
+      <div class="skills-Block">
+        <div class="skill-img-block">
+          <img class="skill-img" alt="c++-img" src="./Skill-img/c++.png" />
+          <p class="skill-name">C++</p>
+        </div>
+        <div class="skill-img-block">
+          <img class="skill-img" alt="HTML-img" src="./Skill-img/html.png" />
+          <p class="skill-name">HTML</p>
+        </div>
+        <div class="skill-img-block">
+          <img class="skill-img" alt="CSS-img" src="./Skill-img/css.png" />
+          <p class="skill-name">CSS</p>
+        </div>
+        <div class="skill-img-block">
+          <img
+            class="skill-img"
+            alt="JS-img"
+            src="./Skill-img/javascript.png"
+          />
+          <p class="skill-name">JavaScript</p>
+        </div>
+        <div class="skill-img-block">
+          <img
+            class="skill-img"
+            alt="Python-img"
+            src="./Skill-img/python.png"
+          />
+          <p class="skill-name">Python</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="block-2">
+      <div class="edu-heading" id="edu-heading">Education</div>
+      <div class="block hidden"></div>
+      <div class="edu-cards hidden">
+        <div class="edu-block hidden">
+          <div class="edu-time">
+            <div class="time-period">2021-Present</div>
+            <div class="edu-type">B.Tech (CSE)</div>
+          </div>
+          <div class="edu-content">
+            NIMS Institute of Engineering and technology <br />NIMS
+            University,Jaipur <br />Rajasthan
+          </div>
+        </div>
+        <div class="edu-block hidden">
+          <div class="edu-time">
+            <div class="time-period">2020-2021</div>
+            <div class="edu-type">Class 12<sup>TH</sup></div>
+          </div>
+          <div class="edu-content">
+            Ratlam Public School <br />CBSE Board <br />Ratlam (M.P.)
+          </div>
+        </div>
+        <div class="edu-block hidden">
+          <div class="edu-time">
+            <div class="time-period">2018-2019</div>
+            <div class="edu-type">Class 10<sup>TH</sup></div>
+          </div>
+          <div class="edu-content">
+            Ratlam Public School <br />CBSE Board <br />Ratlam (M.P.)
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

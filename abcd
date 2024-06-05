@@ -1,0 +1,45 @@
+<header class="header ">
+      <ul class="header-list">
+        <li class="list-item"><a href="#">Overview</a></li>
+        <li class="list-item"><a href="#">Education</a></li>
+        <li class="list-item"><a href="#">Skills</a></li>
+        <li class="list-item"><a href="#">Projects</a></li>
+        <li class="list-item"><a href="#">Contact Me</a></li>
+        <li class="list-item "><a href="#" class="Download">Download CV</a></li>
+      </ul>
+    </header>
+
+
+
+
+
+
+    <section class="container">
+        <div class="first-page">
+          <div class="first-page-card front-side">
+            <div class="front-page-text">
+              <span class="hover-text">
+                Hover
+              </span>
+              <span class="hover-text-2">
+                to See
+              </span>
+            </div>
+          </div>
+          <div class="first-page-card back-side">
+            <div class="back-side-text">
+              <div class="back-page-block">
+                <div class="back-page-text">
+                  <p class="hello">Hello </p>
+                  <p class="name">I am <span>Krish Sharma</span></p>
+                  <p class="field">(Computer Science Student)</p>
+                </div>
+                <span class="scroll">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                  <span id="scroll-line">Scroll Down</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
