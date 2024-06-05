@@ -126,6 +126,7 @@ header ul li:hover {
 }
 
 .contect-me-block {
+  position: relative;
   display: flex;
   gap: 2rem;
 }
@@ -141,6 +142,29 @@ header ul li:hover {
   cursor: pointer;
   background-color: #66fcf1;
   color: #0b0c10;
+}
+
+.fa-at,
+.fa-phone {
+  margin-bottom: 1rem;
+}
+
+.mail-num-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-hide-block {
+  position: absolute;
+  bottom: -3rem;
+  display: block;
+  background-color: #66fcf1;
+  padding: 1rem;
+  color: #0f1035;
+  font-weight: bolder;
+  border-radius: 11px;
 }
 
 /* -------- */

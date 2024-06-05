@@ -28,3 +28,20 @@ function OpenGit() {
 function OpenLinkedIn() {
   window.open("https://linkedin.com/in/krish-sharma-669048241");
 }
+
+let numBlock = document.getElementById("Num-block");
+let mailBlock = document.getElementById("mail-Block");
+
+function ShowNum() {
+  if (mailBlock.classList.contains("Hide-text")) {
+    mailBlock.classList.remove("Hide-text");
+  }
+  numBlock.classList.toggle("Hide-text");
+}
+
+function ShowMail() {
+  if (numBlock.classList.contains("Hide-text")) {
+    numBlock.classList.remove("Hide-text");
+  }
+  mailBlock.classList.toggle("Hide-text");
+}
