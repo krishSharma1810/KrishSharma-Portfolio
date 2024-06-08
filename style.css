@@ -149,14 +149,11 @@ header ul li:hover {
   margin-bottom: 1rem;
 }
 
-.mail-num-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.contact-hide-btn + .contact-hide-block {
+  display: none;
 }
 
-.contact-hide-block {
+.contact-hide-btn.open + .contact-hide-block {
   position: absolute;
   bottom: -3rem;
   display: block;
